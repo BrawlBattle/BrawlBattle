@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('assets/supercell.woff2') format('woff2');
+    /* Add more src lines if you have different font formats */
+}
+
+@font-face {
+font-family: 'text';
+src: url('assets/supertext.woff2') format('woff2');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'text', sans-serif; /* Apply 'text' font to all other text elements */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+ .top-nav {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.top-nav a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 10px; /* Adjusted spacing between buttons */
+}
+
+.top-nav a:hover {
+    background-color: #555;
+}
+
+.top-nav img {
+    width: 115px;
+    margin-right: px;
+    margin-left: px;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px; /* Adjust as needed */
+    margin-right: 10px;
+}
+
+.banner {
+    background-image: url('images/banner.gif');
+    background-size: cover;
+    background-position: center; /* Center the background image */
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+.banner2 {
+    background-image: url('images/banner.gif');
+    background-size: cover;
+    background-position: center; /* Center the background image */
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+.container {
+  max-width: 800px; /* Adjust maximum width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-top: 0px;
+}
+
+h1 {
+    font-family: 'CustomFont', sans-serif; /* Apply CustomFont to h1 */
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #666;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+ol li {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.hidden-text {
+    display: none; /* Initially hide the text */
+    margin-left: 20px; /* Adjust margin as needed */
+    text-align: center; /* Center the text */
+}
+
+.toggle-text {
+    color: black; /* Set color to black */
+    text-decoration: none; /* Remove underline */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-weight: bold; /* Make the ">" button bold */
+    font-size: 13px; /* Increase the size of the ">" button */
+    margin-right: 10px; /* Adjust spacing between button and title */
+}
+
+.title {
+    font-size: 24px; /* Increase the size of the title */
+    font-weight: bold;
+    text-align: center; /* Center the title */
+    margin-bottom: 10px;
+}
+
+.description {
+    text-align: center; /* Center the description */
+}
+
+.no-list-style {
+    list-style-type: none; /* Remove the default numbering */
+    padding-left: 0; /* Remove default left padding */
+}
+
+.rule-section {
+    margin-bottom: 35px; /* Add spacing between rule sections */
+    color: #666
+}
+
+.rule-title {
+    font-family: 'CustomFont', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.title-image {
+    width: 38px; /* Adjust as needed */
+    margin-right: 0px; /* Adjust as needed */
+}
+
+/* Add styling for the icon image */
+.effective-date-icon {
+    width: 15px; /* Adjust the width of the icon */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 0px; /* Add some space between the icon and the text */
+}
+
+.point {
+    width: 25px; /* Adjust the width of the icon */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 0px; /* Add some space between the icon and the text */
+}
+
+/* CSS styles for the active class */
+.rule-section:target {
+    background-color: #f0f0f0; /* Change to the desired color */
+}
+
+.divider {
+    border-top: 1px solid #ccc; /* Thin line style */
+    margin: 20px 0; /* Adjust margin as needed */
+}
